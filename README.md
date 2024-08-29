@@ -2,22 +2,24 @@
 # Backend
 
 Launch backend : 
-`bash
+`
+cd Backend/user-registration-backend
 node server.js
 `
 
 Launch the database :
-`bash
+`
 sudo systemctl start mongod
 `
 
 Launch Mongodb : 
-`bash
+`
 mongodb-compass
 `
 
 # Frontend
 Launch Frontend:
-`bash
+`
+cd Front/user-registration-form
 npm start
 `
